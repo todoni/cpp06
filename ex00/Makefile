@@ -1,6 +1,6 @@
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -MD -g
-NAME = convertor
-SRCS = main.cpp
+NAME = converter
+SRCS = main.cpp Converter.cpp Char.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 #%.o : %.cc
