@@ -1,6 +1,6 @@
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -MD -g
-NAME = converter
-SRCS = main.cpp Converter.cpp Char.cpp Double.cpp Float.cpp Int.cpp
+NAME = serialize
+SRCS = main.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 #%.o : %.cc

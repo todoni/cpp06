@@ -2,4 +2,6 @@
 *.d
 *.out
 *test*
-convertor
+converter
+serialize
+identify
